@@ -9,6 +9,6 @@ const user: UserInterface = {
     name: 'Vova',
     age: 25,
     logInfo() {
-        console.log(`${this.name} ${this.age}`)
+        console.log(this.name + ' ' + this.age)
     }
 }
